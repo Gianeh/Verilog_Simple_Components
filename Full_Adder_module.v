@@ -1,7 +1,7 @@
 //esempio: Half_Adder
 `timescale 1ns / 1ps
 //test the NAND gate
-module encoder_testbench; //module with no ports
+module full_adder_testbench; //module with no ports
 reg A, B, carry_in;
 wire sum, carry_out;
 //instantiate your circuit
